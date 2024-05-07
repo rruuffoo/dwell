@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.one-of-saleblock{
+    width: 348px;
+    height: 480px;
+    box-shadow: 0 4px 20px 2px rgba(43, 43, 43, 0.05);
+    margin-bottom: 70px;
+}
+
+.photo-of-saleblock{
+    height: 208px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.red-text-inside-photo-saleblock{
+    width: 60px;
+    height: 28px;
+    font-size: 14px;
+    color: white;
+    background-color: #e50e0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.buy-title{
+    font-size: 26px;
+    color: #2b2b2b;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-top:25px;
+    text-decoration: none;
+}
+
+.buy-title:hover{
+    color: #e50e0b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buy-subtitle{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    color: #2b2b2b;
+    margin-top: 5px;
+}
+
+.buy-price{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.title-subtitle-price-saleblock{
+    width: 304px;
+    border-bottom: 2px solid rgb(228,236,242,1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-above-number{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.data-sale-houses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-under-logo{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.buy-beds{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.div-under-photo-of-sale-home{
+    padding-inline: 20px;
+}
+
+
+@media(max-width:768px){
+    .one-of-saleblock{
+        width: 320px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .title-subtitle-price-saleblock{
+        width: auto;
+    }
+}

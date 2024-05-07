@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.new-properties{
+    color: #2b2b2b;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.text-for-sale{
+    font-size: 40px;
+    color: #091d35;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.new-properties-for-sale{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.for-sale-part-in-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-more-red-button{
+    background-color: #e50e0b;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.gray-line-under-for-sale-part-in-main{
+    border-top: 2px solid rgb(228, 236, 242, 1);
+    height: 3px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.view-more-red-button-rent{
+    background-color: #e50e0b;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.new-properties-for-rent{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* @media(max-width:870px){
+    .new-properties-for-sale{
+        width: 90%;
+    }
+    .new-properties-for-rent{
+        width: 90%;
+    }
+} */

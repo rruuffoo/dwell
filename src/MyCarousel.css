@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.karusel-block {
+  width: 90%;
+  height: 376px;
+  margin: 0 auto;
+  background-color: #091d35;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+
+.karusel-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-carousel {
+  width: 440px;
+  height: 96px;
+  color: white;
+  line-height: 2em;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  position: relative;
+  left: 34%;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.name-carousel {
+  text-align: center;
+  color: #f96f6c;
+  font-size: 19px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.clients-stories {
+  letter-spacing: 0.3em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.sklad {
+  background-image: url(./assets/sklad.webp);
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: 100% 90%;
+}
+
+
+
+.end-part-of-mainpage {
+  height: 568px;
+  background-color: #e4ecf2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-find-email {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 120px;
+}
+
+.text-in-call-find-email {
+  text-align: center;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.3em;
+  padding-top: 80px;
+}
+
+.red-phone-photo {
+  width: 43px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.red-location-photo {
+  width: 39px;
+  height: 51px;
+  margin-bottom: 24px;
+}
+
+.red-mail-photo {
+  width: 55px;
+  height: 35px;
+  margin-bottom: 40px;
+}
+
+.text-under-red-phone {
+  font-size: 26px;
+  color: #2b2b2b;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.red-telephone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-calls,
+.number-for-connect {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #2b2b2b;
+}
+
+.free-calls {
+  margin-top: 30px;
+}
+
+.number-for-connect {
+  margin-top: 5px;
+}
+
+@media(max-width:1024px) {
+  .karusel-block {
+    width: 100%;
+    height: 310px;
+    top: 0;
+  }
+  .sklad{
+    height: 300px;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+  }
+  .end-part-of-mainpage {
+    height: 400px;
+  }
+  .call-find-email{
+    margin-top: 70px;
+  }
+  .text-in-call-find-email{
+    padding-top: 50px;
+  }
+  .clients-stories{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media(max-width:768px){
+  .sklad{
+    background-image: url(./assets/sklad-for-mobile.webp);
+    height: 194px;
+  }
+  .call-find-email{
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: space-between;
+    height: 480px;
+  }
+  .end-part-of-mainpage{
+    height: 700px;
+  }
+  .red-phone-photo{
+    width: 25px;
+    height: 33px;
+    margin-bottom: 15px;
+  }
+  .red-location-photo{
+    width: 26px;
+    height: 34px;
+    margin-bottom: 12px;
+  }
+  .red-mail-photo{
+    width: 34px;
+    height: 22px;
+    margin-bottom: 15px;
+  }
+  .text-under-red-phone{
+    font-size: 22px;
+  }
+  .free-calls{
+    margin-top: 10px;
+  }
+  .text-in-call-find-email{
+    width: 246px;
+  }
+  .text-carousel{
+    width: 265px;
+    height: 200px;
+    position: relative;
+    left: 13%;
+  }
+  .name-carousel{
+    margin: 0;
+  }
+}

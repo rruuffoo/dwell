@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.detailed-house-info{
+    display: flex;
+    justify-content: center;
+}
+
+.detailed-house-info-for-centre{
+    padding-top: 80px;
+}
+
+.bed-logo{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 18px;
+}
+
+.bed-bath-sqft,.lev-built-main{
+    display: flex;
+    color: #2b2b2b;
+}
+
+.bed-bath-sqft{
+    margin-bottom: 80px;
+}
+
+.bed{
+    margin-right: 70px;
+}
+
+.bed-second{
+    margin-right: 85px;
+}
+
+.bed-first{
+    margin-right: 93px;
+}
+
+.one-block-agent-detailed{
+    width: 297px;
+    height: 535px;
+    color: #2b2b2b;
+    box-shadow: 0 4px 20px 2px rgba(43, 43, 43, 0.05);
+    display: flex;
+    justify-content: center;
+    background-color: #e4ecf2;
+}
+
+.div-under-big-house-photo{
+    display: flex;
+    color: #2b2b2b;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.property-desc{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-under-property-desc{
+    width: 514px;
+    line-height: 2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-bottom: 75px;
+}
+
+.street{
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #091d35;
+    margin-bottom: 20px;
+}
+
+.price-under-street{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #e50e0b;
+}
+
+.buy-text{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    color: #2b2b2b;
+    letter-spacing: 0.3em;
+}
+
+.bedrooms{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.number-of-bedrooms{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.street-price-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+
+.contact-with-agent{
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.contact-agent{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.detailed-house-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(228, 236, 242, 1);
+    width: 300px;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.detailed-house-input::placeholder,.email-input::placeholder{
+    color: #2b2b2b;
+}
+
+.first-last-phone-inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.email-input{
+    width: 862px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(228, 236, 242, 1);
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.detailed-button{
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #e50e0b;
+}
+
+.email-button-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.realtor-id-detailed{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+}

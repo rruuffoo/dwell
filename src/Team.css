@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.agents-header{
+    height: 250px;
+    background-image: url(./assets/agents.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.one-block-agent{
+    width: 297px;
+    height: 535px;
+    color: #2b2b2b;
+    box-shadow: 0 4px 20px 2px rgba(43, 43, 43, 0.05);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.realtor-photo{
+    width: 251px;
+    height: 254px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.agent-name{
+    font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 3px;
+}
+
+.realtor-id{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+}
+
+.realtor-email,.realtor-phone{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.email-link,.realtor-phone-number{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.email-link{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.realtor-phone{
+    margin-bottom: 5px;
+}
+
+.realtor-linkedin{
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #e50e0b;
+    cursor: pointer;
+}
+
+.phone-num-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agents-blocks{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.agents-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+@media(max-width:1024px){
+    .agents-blocks{
+        width: 85%;
+    }
+}

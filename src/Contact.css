@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.contact-header{
+    height: 250px;
+    background-image: url(./assets/tracks.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.white-part-contact{
+    height: 300px;
+    color:#2b2b2b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our-office{
+    font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.adresses,.mail-in-contact{
+    font-family: "Roboto", sans-serif;
+}
+
+.mail-in-contact{
+    height: 48.4px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.first-address-line{
+    margin-bottom: 10px;
+}
+
+.our-office{
+    display: flex;
+    align-items: flex-start;
+    height: 75px;
+}
+
+
+.white-part2{
+    height: 300px;
+    color:#2b2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-in-touch{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    margin-bottom: 30px;
+}
+
+.text-under-get-in-touch{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8em;
+    width: 600px;
+    text-align: center;
+}
