@@ -70,3 +70,32 @@
     width: 600px;
     text-align: center;
 }
+
+@media(max-width:768px){
+    .contact-header{
+        background-image: url(./assets/contact-mobile.webp);
+    }
+    .white-part-contact{
+        flex-direction: column;
+        height: 250px;
+    }
+    .title-of-news{
+        font-size: 29px;
+    }
+    .our-office{
+        font-size: 19px;
+        height: auto;
+    }
+    .mail-in-contact{
+        height: auto;
+    }
+    .text-under-get-in-touch{
+        width: 250px;
+    }
+    .get-in-touch{
+        margin-bottom: 10px;
+    }
+    .white-part2{
+        height: 250px;
+    }
+}

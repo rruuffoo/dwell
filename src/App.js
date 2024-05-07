@@ -11,7 +11,6 @@ import { Route, Routes,} from 'react-router-dom';
 export default class App extends Component {
   render() {
     return (
-      <>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/team' element={<Team/>} />
@@ -19,11 +18,6 @@ export default class App extends Component {
           <Route path='/news' element={<News/>} />
           <Route path='/detailedhouse' element={<DetailedHouse/>}/>
         </Routes>
-        {/* <News/>
-        <Team/>
-        <Contact/> */}
-        {/* <DetailedHouse/> */}
-      </>
     )
   }
 }

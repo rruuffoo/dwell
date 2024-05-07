@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import "leaflet/dist/leaflet.css";
-import placeholder from "./placeholder.png"
-import "./map.css"
+import placeholder from "./placeholder.png";
+import "./map.css";
 
 
 const mapCenter = [40.377975257845826, 49.85441812273204];

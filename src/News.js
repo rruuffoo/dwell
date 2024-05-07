@@ -8,8 +8,10 @@ import BrownRoof from "./assets/brown-roof.webp";
 import Builder from "./assets/builder.webp";
 import HouseWithGrayRoof from "./assets/house-with-gray-roof.webp";
 import PersonWithLaptop from "./assets/person-with-laptop.webp";
+import ScrollButton from "./Scrollupbutton";
 
 export default class News extends Component {
+    
     state = {
         NewsBlocks: [
             {
@@ -97,6 +99,7 @@ export default class News extends Component {
                         )}
                     </div>
                 </div>
+                <ScrollButton/>
                 <Footer />
             </>
         )

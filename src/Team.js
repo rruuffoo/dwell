@@ -8,6 +8,7 @@ import BritneyBails from "./assets/britney-bails.webp";
 import DonWhite from "./assets/don-white.webp";
 import BrendaRogers from "./assets/brenda-rogers.webp";
 import MikeHelman from "./assets/mike-helman.webp";
+import ScrollButton from "./Scrollupbutton";
 
 export default class Team extends Component {
     state = {
@@ -44,7 +45,7 @@ export default class Team extends Component {
     render() {
         return (
             <>
-                <Header cvetAgent={"rgb(255, 116, 116)"}/>
+                <Header cvetAgent={"rgb(255, 116, 116)"} />
                 <div className="agents-header">
                     <div className="news-uptade-overlay"></div>
                     <div className="update-news-text">
@@ -73,6 +74,7 @@ export default class Team extends Component {
                         )}
                     </div>
                 </div>
+                <ScrollButton />
                 <Footer />
             </>
         )

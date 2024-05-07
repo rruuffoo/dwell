@@ -3,6 +3,8 @@ import "./Contact.css";
 import Header from './Header';
 import Footer from './Footer';
 import WorldMap from './WorldMap';
+import ScrollButton from './Scrollupbutton';
+
 export default class Contact extends Component {
     render() {
         return (
@@ -32,6 +34,7 @@ export default class Contact extends Component {
                         <p className='get-in-touch'>GET IN TOUCH</p>
                         <p className='text-under-get-in-touch'>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
                     </div>
+                    <ScrollButton/>
                 <Footer />
             </>
         )
